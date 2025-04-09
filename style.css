@@ -39,6 +39,10 @@ table {
     height: 450px;
 }
 
+a {
+    color: #000000;
+}
+
 table,
 td,
 th {
