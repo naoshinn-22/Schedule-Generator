@@ -15,7 +15,7 @@ body {
 }
 
 .input_periods {
-    font-size: 200%;
+    font-size: 180%;
     width: 300px;
     background-color: #dbffd9;
     
@@ -36,7 +36,7 @@ table {
     margin-right: auto;
 
     width: 350px;
-    height: 500px;
+    height: 450px;
 }
 
 table,
