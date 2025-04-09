@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: #dbffd9;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.period {
+    font-size: 100%;
+    width: 30px;
+}
+
+.input_periods {
+    font-size: 200%;
+    width: 300px;
+    background-color: #dbffd9;
+    
+    border-color: #7d937c;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 30px;
+    
+    width: 100px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 350px;
+    height: 500px;
+}
+
+table,
+td,
+th {
+    border: 1px solid #595959;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+th {
+    background: #f0e6cc;
+}

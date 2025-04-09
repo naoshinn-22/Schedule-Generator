@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="title">3-2 時間割</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p id="date">日付</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">1</p>
+                </td>
+                <td><input class="input_periods" id="1"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">2</p>
+                </td>
+                <td><input class="input_periods" id="2"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">3</p>
+                </td>
+                <td><input class="input_periods" id="3"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">4</p>
+                </td>
+                <td><input class="input_periods" id="4"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">5</p>
+                </td>
+                <td><input class="input_periods" id="5"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="period">6</p>
+                </td>
+                <td><input class="input_periods" id="6"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="generate();">生成</button>
+
+    <script src="./date.js"></script>
+    <script src="./generate.js"></script>
+</body>
+
+</html>
